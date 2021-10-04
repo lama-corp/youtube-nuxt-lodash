@@ -16,12 +16,12 @@ const o2 = { test2: 2 }
 
 export default {
   name: 'PageIndex',
-  asyncData({ $lodash }) {
+  asyncData({ $utils }) {
     // eslint-disable-next-line no-console
     console.log('PageIndex AsyncData')
     // console.log(merge({}, o1, o2))
     // eslint-disable-next-line no-console
-    console.log($lodash.merge({}, o1, o2))
+    console.log($utils.merge({}, o1, o2))
   },
   mounted() {
     // eslint-disable-next-line no-console
@@ -36,7 +36,7 @@ export default {
     // eslint-disable-next-line no-console
     // console.log(merge({}, o1, o2))
     // eslint-disable-next-line no-console
-    console.log(this.$lodash.merge({}, o1, o2))
+    console.log(this.$utils.merge({}, o1, o2))
     this.myAction()
   },
   methods: {

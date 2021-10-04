@@ -14,7 +14,7 @@ import { merge } from 'lodash-es'
 
 // Nuxt + Vue
 export default (context, inject) => {
-  inject('lodash', {
+  inject('utils', {
     merge,
   })
 }

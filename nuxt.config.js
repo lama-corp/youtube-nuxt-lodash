@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'youtube-nuxt-lodash',
+    title: 'Youtube Nuxt Lodash',
     htmlAttrs: {
       lang: 'en',
     },
@@ -19,7 +19,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   // plugins: [],
-  plugins: ['~/plugins/lodash'],
+  plugins: ['~/plugins/utils'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

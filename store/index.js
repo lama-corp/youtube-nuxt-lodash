@@ -5,7 +5,7 @@ export const actions = {
     // eslint-disable-next-line no-console
     console.log('Store myAction')
     // eslint-disable-next-line no-console
-    console.log(this.app.$lodash.merge({}, { test1: 1 }, { test2: 2 }))
+    console.log(this.$utils.merge({}, { test1: 1 }, { test2: 2 }))
   },
 }
 
